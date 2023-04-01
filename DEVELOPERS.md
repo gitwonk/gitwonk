@@ -47,7 +47,7 @@ The Turborepo runs all the services in the [monorepo](https://turbo.build/repo/d
 
 ### Fork the repository
 
-To contribute to [GitWonk](https://gitwonk.com/), you'll need to fork the [GitWonk repository](https://github.com/gitwonk/cloud) and clone it locally.
+To contribute to [GitWonk](https://gitwonk.com/), you'll need to fork the [GitWonk repository](https://github.com/gitwonk/gitwonk) and clone it locally.
 
 You can do this by clicking the `Fork` button in the top-right corner of the repository page.
 
@@ -115,7 +115,7 @@ Did you have an issue, like a merge conflict, or don't know how to open a pull r
 
 ## Community channels
 
-Stuck somewhere? Have any questions? Join the [Discord Community Server](https://discord.gg/6dVMQd7GCB) or the [Github Discussions](https://github.com/gitwonk/gitwonk/discussions). We are here to help!
+Stuck somewhere? Have any questions? Join the [Discord Community Server](https://discord.gg/XvprRWPZKK) or the [Github Discussions](https://github.com/gitwonk/gitwonk/discussions). We are here to help!
 
 ## Special thanks
 
