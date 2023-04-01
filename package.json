@@ -1,0 +1,35 @@
+{
+  "name": "gitwonk",
+  "description": "The open source GitBook alternative.",
+  "author": "GitWonk",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "backend": "go run cmd/app/main.go",
+    "setup:db": "cd docker && docker-compose up -d db",
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@types/node": "^18.11.9",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "eslint": "^7.32.0",
+    "husky": "^8.0.0",
+    "prettier": "^2.7.1",
+    "pretty-quick": "^3.1.3",
+    "turbo": "^1.7.4"
+  },
+  "packageManager": "pnpm@7.20.0"
+}

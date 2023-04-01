@@ -1,0 +1,10 @@
+{
+  "name": "@gitwonk/shared",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "./index.ts",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,7 @@
+.expo
+.next
+next-env.d.ts
+node_modules
+package-lock.json
+out/
+dist/

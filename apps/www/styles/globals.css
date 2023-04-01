@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply decoration-brand-500 hover:underline;
+}
