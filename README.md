@@ -27,7 +27,7 @@ To learn more, visit [gitwonk.com](https://gitwonk.com)
 
 ## Stay tuned
 
-if you like what we are doing, please consider [starring](https://github.com/gitwonk/gitwonk) the repo. We will be posting updates on our [Twitter](https://twitter.com/gitwonk) account.
+if you like what we are doing, please consider [starring](https://github.com/gitwonk/gitwonk) the repo. We will be posting updates on our [Twitter](https://twitter.com/getgitwonk) account.
 
 <img src="./packages/shared/assets/star-us.gif" />
 

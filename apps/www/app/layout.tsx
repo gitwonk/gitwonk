@@ -68,9 +68,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "GitWonk",
-    site: "@gitwonk",
+    site: "@getgitwonk",
     description: siteMeta.description,
-    creator: "@gitwonk",
+    creator: "@getgitwonk",
   },
 };
 

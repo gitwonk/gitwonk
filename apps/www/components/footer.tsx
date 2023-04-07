@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="flex flex-col space-y-2 py-4">
         <div className="flex space-x-5">
           <NextLink
-            href="https://twitter.com/gitwonk"
+            href="https://twitter.com/getgitwonk"
             className="text-scale-900 hover:text-scale-1200 transition">
             <span className="sr-only">Twitter</span>
             <Twitter className="hover:text-brand-500 h-7 w-7" />

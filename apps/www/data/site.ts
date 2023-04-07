@@ -8,7 +8,7 @@ export const siteMeta: SiteMeta = {
     "GitWonk is an open-source technical documentation platform. Helping small teams and enterprises to effortlessly write product docs, knowledge bases, API docs, developer guides, and more.",
   url: "https://gitwonk.com",
   links: {
-    twitter: "https://twitter.com/gitwonk",
+    twitter: "https://twitter.com/getgitwonk",
     github: "https://github.com/gitwonk/gitwonk",
   },
 };
