@@ -13,7 +13,7 @@ export async function GET(request) {
 
   return new ImageResponse(
     (
-      <div tw="flex items-end justify-between p-16 h-full w-full">
+      <div tw="flex bg-[#f7f7f7] items-end justify-between p-16 h-full w-full">
         <h1 tw="text-8xl font-extrabold max-w-lg">
           Write, Collaborate, Publish.
         </h1>
