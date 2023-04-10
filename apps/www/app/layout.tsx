@@ -64,6 +64,14 @@ export const metadata: Metadata = {
     siteName: "GitWonk",
     locale: "en-US",
     type: "website",
+    images: [
+      {
+        url: `${siteMeta.url}/images/og.jpg`,
+        width: 1200,
+        height: 630,
+        alt: siteMeta.title,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
