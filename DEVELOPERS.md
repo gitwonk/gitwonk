@@ -74,7 +74,13 @@ You can do this by clicking the `Fork` button in the top-right corner of the rep
    pnpm install # install dependencies
    ```
 
-2. You can then run the apps simultaneously with the following.
+2. Copy the `.env.example` file to `.env.local` 
+
+   ```sh
+   cp apps/www/.env.example apps/www/.env.local
+   ```
+
+3. You can then run the apps simultaneously with the following.
    ```sh
    pnpm run dev # to run all apps at once
    ```
