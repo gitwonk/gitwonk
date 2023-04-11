@@ -5,6 +5,7 @@ import localFont from "next/font/local";
 import clsx from "clsx";
 import { RootWrapper } from "@/components/root-wrapper";
 import { siteMeta } from "data/site";
+import { absoluteUrl } from "@/lib/utils";
 
 const satoshi = localFont({
   src: "../public/fonts/Satoshi-Variable.woff2",
@@ -66,7 +67,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: `${siteMeta.url}/images/og.jpg`,
+        url: absoluteUrl("/images/og.jpg"),
         width: 1200,
         height: 630,
         alt: siteMeta.title,
