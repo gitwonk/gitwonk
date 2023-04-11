@@ -25,6 +25,14 @@ export const metadata: Metadata = {
     template: `%s | ${siteMeta.templateTitle}`,
   },
   description: siteMeta.description,
+  openGraph: {
+    title: siteMeta.title,
+    description: siteMeta.description,
+    url: siteMeta.url,
+    siteName: "GitWonk",
+    locale: "en-US",
+    type: "website",
+  },
   keywords: [
     "Open Source Software",
     "GitBook Alternative",
@@ -53,24 +61,14 @@ export const metadata: Metadata = {
       url: "/favicon/apple-touch-icon.png",
     },
   },
-  manifest: `${siteMeta.url}/site.webmanifest`,
-  openGraph: {
-    title: {
-      default: siteMeta.title,
-      template: `%s | ${siteMeta.templateTitle}`,
-    },
-    description: siteMeta.description,
-    url: siteMeta.url,
-    siteName: "GitWonk",
-    locale: "en-US",
-    type: "website",
-  },
+  // TODO: look into this later
+  // manifest: `${siteMeta.url}/site.webmanifest`,
   twitter: {
     card: "summary_large_image",
     title: "GitWonk",
-    site: "@getgitwonk",
+    site: "@gitwonk",
     description: siteMeta.description,
-    creator: "@getgitwonk",
+    creator: "@gitwonk",
   },
 };
 
