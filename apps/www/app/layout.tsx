@@ -33,6 +33,14 @@ export const metadata: Metadata = {
     siteName: "GitWonk",
     locale: "en-US",
     type: "website",
+    images: [
+      {
+        url: absoluteUrl("/images/og.jpg"),
+        width: 1200,
+        height: 630,
+        alt: siteMeta.title,
+      },
+    ],
   },
   keywords: [
     "Open Source Software",
@@ -61,23 +69,6 @@ export const metadata: Metadata = {
       rel: "apple-touch-icon-precomposed",
       url: "/favicon/apple-touch-icon.png",
     },
-  },
-  openGraph: {
-     title: siteMeta.title,
-     description: siteMeta.description,
-     url: siteMeta.url,
-     siteName: "GitWonk",
-     locale: "en-US",
-     type: "website",
-   },
-    images: [
-      {
-        url: absoluteUrl("/images/og.jpg"),
-        width: 1200,
-        height: 630,
-        alt: siteMeta.title,
-      },
-    ],
   },
   // TODO: look into this later
   // manifest: `${siteMeta.url}/site.webmanifest`,
