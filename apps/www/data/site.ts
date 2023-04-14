@@ -1,14 +1,13 @@
 import { NavBarType, SiteMeta } from "types";
 
 export const siteMeta: SiteMeta = {
-  title:
-    "GitWonk: Write Technical Documentation with Superpowers. An open-source, self-hosted alternative to GitBook, Confluence, and Archbee",
+  title: "GitWonk: Write Technical Documentations with Superpowers",
   templateTitle: "GitWonk",
   description:
-    "GitWonk is an open-source technical documentation platform. Helping small teams and enterprises to effortlessly write product docs, knowledge bases, API docs, developer guides, and more.",
+    "GitWonk is an open-source, self-hosted alternative to GitBook, Confluence, and Archbee. Helping small teams and enterprises to effortlessly write product docs, knowledge bases, API docs, developer guides, and more.",
   url: "https://gitwonk.com",
   links: {
-    twitter: "https://twitter.com/getgitwonk",
+    twitter: "https://twitter.com/gitwonk",
     github: "https://github.com/gitwonk/gitwonk",
   },
 };

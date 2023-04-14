@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://gitwonk.com
-
-# Sitemaps
-Sitemap: https://gitwonk.com/sitemap.xml
