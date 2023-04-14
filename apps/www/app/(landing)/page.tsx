@@ -11,7 +11,7 @@ const Index = ({}: Props) => {
     <>
       <Hero />
       {/* <Features />
-        <Banner /> */}
+      <Banner /> */}
     </>
   );
 };

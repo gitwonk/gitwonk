@@ -6,6 +6,7 @@ import clsx from "clsx";
 import { RootWrapper } from "@/components/root-wrapper";
 import { siteMeta } from "data/site";
 import { absoluteUrl } from "@/lib/utils";
+import { absoluteUrl } from "@/lib/utils";
 
 const satoshi = localFont({
   src: "../public/fonts/Satoshi-Variable.woff2",
@@ -72,7 +73,7 @@ export const metadata: Metadata = {
     site: "@getgitwonk",
     images: [`${siteMeta.url}/og.jpg`],
     description: siteMeta.description,
-    creator: "@getgitwonk",
+    creator: "@gitwonk",
   },
 };
 
