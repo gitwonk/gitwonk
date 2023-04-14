@@ -5,6 +5,7 @@ import localFont from "next/font/local";
 import clsx from "clsx";
 import { RootWrapper } from "@/components/root-wrapper";
 import { siteMeta } from "data/site";
+import { absoluteUrl } from "@/lib/utils";
 
 const satoshi = localFont({
   src: "../public/fonts/Satoshi-Variable.woff2",
@@ -22,14 +23,30 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: {
     default: siteMeta.title,
-    template: `%s | ${siteMeta.templateTitle}`,
+    template: `%s - ${siteMeta.templateTitle}`,
   },
   description: siteMeta.description,
+  openGraph: {
+    title: siteMeta.title,
+    description: siteMeta.description,
+    url: siteMeta.url,
+    siteName: "GitWonk",
+    locale: "en-US",
+    type: "website",
+    images: [
+      {
+        url: absoluteUrl("/og.jpg"),
+        width: 1200,
+        height: 630,
+        alt: siteMeta.title,
+      },
+    ],
+  },
   keywords: [
-    "Open Source Software",
+    "Open Source",
     "GitBook Alternative",
     "Technical Documentation",
-    "Product Documentation",
+    "Project Documentation",
     "Developer Experience",
     "Knowledge Base",
   ],
@@ -48,27 +65,12 @@ export const metadata: Metadata = {
     icon: "/favicon/favicon.ico",
     shortcut: "/favicon/favicon.ico",
     apple: "/favicon/apple-touch-icon.png",
-    other: {
-      rel: "apple-touch-icon-precomposed",
-      url: "/favicon/apple-touch-icon.png",
-    },
-  },
-  manifest: `${siteMeta.url}/site.webmanifest`,
-  openGraph: {
-    title: {
-      default: siteMeta.title,
-      template: `%s | ${siteMeta.templateTitle}`,
-    },
-    description: siteMeta.description,
-    url: siteMeta.url,
-    siteName: "GitWonk",
-    locale: "en-US",
-    type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "GitWonk",
     site: "@getgitwonk",
+    images: [`${siteMeta.url}/og.jpg`],
     description: siteMeta.description,
     creator: "@getgitwonk",
   },
