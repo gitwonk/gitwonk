@@ -5,8 +5,6 @@ import localFont from "next/font/local";
 import clsx from "clsx";
 import { RootWrapper } from "@/components/root-wrapper";
 import { siteMeta } from "data/site";
-import { absoluteUrl } from "@/lib/utils";
-import { absoluteUrl } from "@/lib/utils";
 
 const satoshi = localFont({
   src: "../public/fonts/Satoshi-Variable.woff2",
@@ -24,7 +22,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: {
     default: siteMeta.title,
-    template: `%s - ${siteMeta.templateTitle}`,
+    template: `%s — ${siteMeta.templateTitle}`,
   },
   description: siteMeta.description,
   openGraph: {
@@ -36,7 +34,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: absoluteUrl("/og.jpg"),
+        url: `${siteMeta.url}/og.jpg`,
         width: 1200,
         height: 630,
         alt: siteMeta.title,
@@ -62,18 +60,13 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  icons: {
-    icon: "/favicon/favicon.ico",
-    shortcut: "/favicon/favicon.ico",
-    apple: "/favicon/apple-touch-icon.png",
-  },
   twitter: {
     card: "summary_large_image",
     title: "GitWonk",
     site: "@getgitwonk",
     images: [`${siteMeta.url}/og.jpg`],
     description: siteMeta.description,
-    creator: "@gitwonk",
+    creator: "@getgitwonk",
   },
 };
 
