@@ -6,7 +6,8 @@ import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
-import * as gitWonkLogoLight from "@gitwonk/shared/assets/logo-wordmark--light.png";
+import gitWonkLogoLight from "@gitwonk/shared/assets/logo-wordmark--light.png";
+import gitWonkLogoDark from "@gitwonk/shared/assets/logo-wordmark--dark.png";
 import MobileMenu from "./mobile-menu";
 import { navBarItems } from "data/site";
 
@@ -48,7 +49,7 @@ export default function Nav(props) {
 
   return (
     <header
-      className={`ease sticky top-0 z-30 backdrop-blur transition-all duration-[0.4s] dark:bg-black ${
+      className={`ease sticky top-0 z-30 backdrop-blur transition-all duration-300 dark:bg-black ${
         isFixed ? "bg-white bg-opacity-95 shadow" : "bg-opacity-0"
       }`}>
       <div className="relative mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">

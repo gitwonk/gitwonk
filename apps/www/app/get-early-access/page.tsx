@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import NextLink from "next/link";
 import { ChevronLeft } from "@/components/icons";
-import * as gitWonkLogoLight from "@gitwonk/shared/assets/logo-wordmark--light.png";
+import gitWonkLogoLight from "@gitwonk/shared/assets/logo-wordmark--light.png";
 import EarlyInput from "@/components/early-input";
 
 type Props = {};

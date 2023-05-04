@@ -4,12 +4,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3001",
-    "build": "next build",
+    "dev": "concurrently \"contentlayer dev\" \"next dev -p 3001\"",
+    "build": "contentlayer build && next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@gitwonk/shared": "workspace:*",
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.1",
     "@mdx-js/loader": "^2.2.1",
     "@mdx-js/react": "^2.2.1",
     "@supabase/supabase-js": "^2.7.1",
@@ -17,19 +19,22 @@
     "@vercel/og": "^0.0.21",
     "clsx": "^1.2.1",
     "cobe": "^0.6.3",
-    "contentlayer": "^0.3.0",
+    "concurrently": "^8.0.1",
+    "contentlayer": "^0.3.2",
     "date-fns": "^2.29.3",
     "encoding": "^0.1.13",
     "mdast-util-toc": "^6.1.1",
-    "next": "13.2.5-canary.16",
-    "next-contentlayer": "^0.3.0",
+    "next": "13.4.0",
+    "next-contentlayer": "^0.3.2",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.0",
     "react-spring": "^9.7.1",
     "sharp": "^0.31.3",
-    "tailwind-merge": "^1.6.2"
+    "tailwind-merge": "^1.6.2",
+    "unist-util-visit": "^4.1.2",
+    "zod": "^3.19.1"
   },
   "devDependencies": {
     "@gitwonk/config": "workspace:*",
