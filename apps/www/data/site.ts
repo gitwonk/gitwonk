@@ -20,7 +20,7 @@ export const navBarItems: NavBarType = [
   },
   {
     title: "Discord",
-    href: "https://discord.gg/XvprRWPZKK",
+    href: "https://discord.gitwonk.com",
     transitionDelay: "200ms",
   },
   {
