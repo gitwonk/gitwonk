@@ -1,6 +1,7 @@
 import NextLink from "next/link";
 import { Twitter, Github } from "@/components/icons";
 import Discord from "./icons/discord";
+import Link from "next/link";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -24,7 +25,7 @@ const Footer = () => {
           </NextLink>
 
           <NextLink
-            href="https://discord.gg/XvprRWPZKK"
+            href="https://discord.gitwonk.com"
             className="text-scale-900 hover:text-scale-1200 transition">
             <span className="sr-only">Discord</span>
             <Discord className="hover:text-brand-500 h-7 w-7" />
@@ -37,7 +38,8 @@ const Footer = () => {
       </div>
       <div className="py-4">
         <small className="small">
-          We <span className="text-red-500">❤</span> Open Source
+          We <span className="text-red-500">❤</span> Open Source |{" "}
+          <Link href="/open-source">OSS Friends</Link>{" "}
         </small>
       </div>
       <div className="hidden gap-x-2.5 py-4 md:flex md:flex-row">

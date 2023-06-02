@@ -22,7 +22,7 @@ export default async function BlogPage() {
   return (
     <div className="dark:bg-black">
       <div className="mx-auto max-w-screen-lg px-4 py-4 sm:px-6 lg:px-8">
-        <div className=" flex w-full flex-col items-center justify-center gap-4 py-10">
+        <div className=" flex w-full flex-col justify-center gap-4 py-10 sm:items-center">
           <div className="flex items-center gap-2 py-4">
             <BookMark className="text-brand-400 h-14 w-14" />
             <h1 className="font-display text-6xl font-extrabold">Blog</h1>

@@ -19,3 +19,26 @@ export type NavItem = {
 };
 
 export type NavBarType = NavItem[];
+
+/* Footer Link contains type definitions for the footer links */
+export type FooterLink = {
+  name: string;
+  href: string;
+  notActive?: boolean;
+};
+
+export type FooterLinkGroup = {
+  title: string;
+  links: FooterLink[];
+};
+
+export type FooterLinks = FooterLinkGroup[];
+
+// Friend contains type definitions for the oss friends list
+export type Friend = {
+  name: string;
+  href: string;
+  description: string;
+};
+
+export type Friends = Friend[];
