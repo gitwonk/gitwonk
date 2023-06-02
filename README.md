@@ -20,7 +20,7 @@ To learn more, visit [gitwonk.com](https://gitwonk.com)
 
 ## Current Status
 
-- [x] Pre-Alpha: We are building the first version of GitWonk and testing with a closed set of people
+- [x] Pre-Alpha: We are building the first version of GitWonk (MVP) and testing with a closed set of people
 - [ ] Public Alpha: Anyone can sign up over. But go easy on us, there are a few kinks
 - [ ] Public Beta: Stable enough for most non-enterprise use-cases
 - [ ] Public: Production-ready
@@ -66,4 +66,4 @@ If you believe you have found a security vulnerability in GitWonk, we encourage 
 
 ## License
 
-Inspired by [Supabase](https://supabase.com/), GitWonk is open-source under the GNU Affero General Public License Version 3 (AGPLv3) or any later version. You can [find it here](https://github.com/gitwonk/gitwonk/blob/main/LICENSE.md).
+Inspired by many of our open-source friends, GitWonk is open source under the GNU Affero General Public License Version 3 (AGPLv3) or any later version. You can [find it here](https://github.com/gitwonk/gitwonk/blob/main/LICENSE.md).
