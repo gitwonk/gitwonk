@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://gitwonk.com">
-    <img src="./packages/shared/assets/cover.png" />
+    <img src="https://github.com/gitwonk/gitwonk/assets/63534555/f681daf9-4548-414c-9c0f-649bae0f5382" alt="cover"/>
   </a>
 </div>
 
