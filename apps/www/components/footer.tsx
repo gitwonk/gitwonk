@@ -14,7 +14,7 @@ const Footer = () => {
             href="https://twitter.com/getgitwonk"
             className="text-scale-900 hover:text-scale-1200 transition">
             <span className="sr-only">Twitter</span>
-            <Twitter className="hover:text-brand-500 h-7 w-7" />
+            <Twitter className="hover:text-brand-500 h-6 w-6" />
           </NextLink>
 
           <NextLink
